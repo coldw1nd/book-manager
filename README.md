@@ -1,5 +1,21 @@
-# Vue 3 + Vite
+# Vue Book Manager
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### Ссылки
+- **[GitHub Pages](https://coldw1nd.github.io/book-manager/)**
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+### Основной функционал
+- **Добавление книг** (название, автор, жанр).
+- **Управление статусом**: отметка книги как прочитанной.
+- **Рейтинг**: выставление оценки (от 1 до 5 звезд) для прочитанных книг.
+- **Фильтрация и поиск**: по статусу (Все / Непрочитанные / Прочитанные) и текстовый поиск по названию/автору.
+- **Статистика**: автоматический подсчет общего количества книг, прочитанных и оставшихся.
+- **Сохранение данных**: использование `localStorage`, чтобы библиотека не пропадала после обновления страницы.
+
+### Дополнительное задание
+- **Избранное**: реализована возможность отмечать любимые книги с помощью иконки сердечка.
+
+### Технологии
+- Vue 3 (Composition API, `<script setup>`)
+- Vite
+- Директивы Vue (`v-model`, `v-for`, `v-if`, `v-bind`, `v-on`)
+- Реактивность (`ref`, `reactive`, `computed`, `watch`)
